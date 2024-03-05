@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" modified="2024-03-05T01:49:59.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ofEEddhljH1IJBugKOxx" version="24.0.1" type="device">
+  <diagram name="Page-1" id="WLLZk8674qMYykAXsIie">
+    <mxGraphModel dx="1050" dy="1630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-1" value="&lt;h3 style=&quot;font-size: 15px;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 15px;&quot;&gt;TUGAS 2 BOOT PROCESS&lt;br&gt;Dimas Ivanda Fauzi&lt;br&gt;3123521022&lt;/font&gt;&lt;/h3&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="325" y="-1100" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yIXvsCk0Lj2JiP-U8S06-2" target="yIXvsCk0Lj2JiP-U8S06-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-2" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Power On&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;tombol power pada komputer dinyalakan, dan perangkat keras mulai mendapatkan daya dari power supply dan listrik&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-940" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yIXvsCk0Lj2JiP-U8S06-3" target="yIXvsCk0Lj2JiP-U8S06-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="-760" />
+              <mxPoint x="635" y="-760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-3" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Power-On-Self-Test (POST)&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;melakukan pemeriksaan terhadap perangkat keras seperti RAM, CPU, SSD, kartu grafis, dll&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-940" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mlo_W67obrJKXGXWfdzC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yIXvsCk0Lj2JiP-U8S06-4" target="yIXvsCk0Lj2JiP-U8S06-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;BIOS/UEFI&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;mengaktifkan BIOS atau UEFI untuk melakukan inisialisasi pada perangkat keras dan memuat boot loader&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-690" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mlo_W67obrJKXGXWfdzC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yIXvsCk0Lj2JiP-U8S06-9" target="yIXvsCk0Lj2JiP-U8S06-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-9" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Boot Loader&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;boot loader membaca informasi konfigurasi dan memuat kernel sistem operasi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-690" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mlo_W67obrJKXGXWfdzC-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yIXvsCk0Lj2JiP-U8S06-10" target="yIXvsCk0Lj2JiP-U8S06-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-10" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Kernel Loading&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;setelah kernel sistem operasi berhasil dimuat, kernel mengambil kendali proses dari boot loader&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-440" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mlo_W67obrJKXGXWfdzC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yIXvsCk0Lj2JiP-U8S06-11" target="yIXvsCk0Lj2JiP-U8S06-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-11" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Proses Inisialisasi&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;proses pertama setelah memuat kernel mengonfigurasi sistem dan membentuk lingkungan awal sistem operasi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-440" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mlo_W67obrJKXGXWfdzC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yIXvsCk0Lj2JiP-U8S06-12" target="yIXvsCk0Lj2JiP-U8S06-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-12" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;User Space Initialization&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;memuat user space yang melibatkan perangkat lunak dan layanan sistem, termasuk menginisialisasi sistem file, memuat driver perangkat, dan menyiapkan lingkungan kerja&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="-190" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yIXvsCk0Lj2JiP-U8S06-13" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Login Prompt / Desktop Environment&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;sistem operasi menampilkan login prompt atau lingkungan desktop, pengguna melakukan login dan mulai menggunakan sistem operasi&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="-190" width="270" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
