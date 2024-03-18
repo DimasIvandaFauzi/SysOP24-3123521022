@@ -124,3 +124,90 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
   - Type : GDDR6
   - Vendor : Hynix
   - Bus Width : 128 bits
+
+- Mindmap Sejarah dan Fungsi OS
+  - ![MindMap SysOps](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/890387a2-74fc-4143-8f6e-f22ea0f7e412)
+#
+# Tugas 3
+1. Presentasi Langkah Demi Langkah Tentang Siklus CPU (Fetch, Decode, Execute)
+- Pengertian CPU
+   - CPU (Central Processing Unit) atau prosesor adalah komponen penting dalam komputer yang bertanggung jawab untuk mengeksekusi perintah dan mengatur akses ke perangkat keras seperti memori, disk drive, dan periferal lainnya. CPU merupakan otak dari komputer, yang memiliki tugas utama untuk menghitung, memproses, dan mengeksekusi data.
+     
+- Siklus CPU merupakan proses utama yang dilakukan oleh CPU untuk mengeksekusi sebuah program. Proses ini dikelilingi oleh beberapa komponen yang bertugas mengatur dan mengirimkan instruksi ke CPU. Berikut adalah langkah demi langkah siklus CPU:
+   - Fetch: CPU mengambil instruksi dari memori. Instruksi ini disimpan dalam register yang disebut register instruction pointer (IP).
+   - Decode: CPU mengubah instruksi yang diambil menjadi format yang dapat dipahami oleh unit eksekusi.
+   - Execute: CPU mengirimkan instruksi ke unit eksekusi yang sesuai. Unit eksekusi melakukan tugas yang ditetapkan oleh instruksi.
+
+- Peran Bahasa Pemrograman dan Compiler. Bahasa pemrograman dan compiler memiliki peran penting dalam mengeksekusi sebuah program. Bahasa pemrograman menyediakan konteks dan logika untuk membuat program, sedangkan compiler mengubah kode sumber menjadi kode yang dapat dijalankan oleh CPU.
+   -  Bahasa pemrograman memiliki beberapa tugas yang dapat dilakukan:
+      - Mengatur algoritma yang akan digunakan.
+      - Mengatur logika program.
+      - Mengatur data yang akan digunakan.
+      - Mengatur tata letak data.
+   - Compiler memiliki beberapa tugas yang dapat dilakukan:
+      - Mengubah kode sumber menjadi kode objek.
+      - Mengubah kode objek menjadi kode assembler.
+      - Mengubah kode assembler menjadi kode yang dapat dijalankan oleh CPU.
+
+- Peran Sistem Operasi. Sistem Operasi memiliki peran penting dalam mengeksekusi sebuah program. Sistem Operasi menyediakan beberapa tugas yang dapat dilakukan:
+   - Scheduling
+      - Menjadwalkan program yang akan dijalankan.
+      - Menjadwalkan penggunaan CPU.
+      - Menjadwalkan penggunaan memori.
+   - Memory Management
+      - Mengatur tata letak memori.
+      - Mengatur penggunaan memori.
+      - Mengatur penggunaan paging.
+   - Input/Output Management
+      - Mengatur input/output perangkat lunak.
+      - Mengatur penggunaan port I/O.
+      - Mengatur penggunaan perangkat lunak I/O.
+   - Process Management
+      - Mengatur process yang akan dijalankan.
+      - Mengatur penggunaan CPU.
+      - Mengatur penggunaan memori.
+   - File Management
+      - Mengatur penggunaan file.
+      - Mengatur penggunaan direktori.
+      - Mengatur penggunaan perangkat lunak file.
+   - Security Management
+      - Mengatur keamanan sistem.
+      - Mengatur penggunaan hak akses.
+      - Mengatur penggunaan pengaturan keamanan.
+    
+2. Debian
+   - apt install gcc -y
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/20e54fd3-8067-4c66-bd1c-766223b8b4be)
+
+   - apt install git -y
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/00b66991-3a51-42a4-8b0d-dd6420ca1bbd)
+
+   - apt install make -y
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/0e35e235-691f-4e8e-8e61-34a9a4f7ada9)
+
+   - git clone https://github.com/ferryastika/flops-iops
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ed034573-8bf1-4eb7-bf79-148aaca53b46)
+
+   - $ make
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2d47f8af-053f-47b2-9ca0-61abe2fa8ce6)
+
+   - $ make clean
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/d5c58269-1c21-4bf6-a254-d386e57b73da)
+
+   - $ sudo make install
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/726eb7c5-f833-4baa-924c-9e3cc24bf1b2)
+
+   - $ sudo make uninstall
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/4e630a86-aace-444e-8a22-b4f4e5db1028)
+
+   - $ iops32 $(nrpoc)
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/52e1ccf7-c5a8-458a-a392-4b4d546941ec)
+
+   - $ iops64 $(nrpoc)
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9d7426a5-a432-4ce6-a9e8-abbc2ac6bd94)
+
+   - $ flops32 $(nrpoc)
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/add7a663-6479-4269-8db8-4fdc0774e902)
+
+   - $ flops64 $(nrpoc)
+     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/1e94d584-d5ce-489b-a223-b3c89527bff5)
