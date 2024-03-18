@@ -70,10 +70,9 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 #
 # Tugas 2
 1. Boot Process
-   ![Tugas2-Boot Process](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2342e836-878a-4cb3-a138-bc37c290549c)
-
-
-3. Identifikasi
+- ![Tugas2-Boot Process](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2342e836-878a-4cb3-a138-bc37c290549c)
+   
+2. Identifikasi
 - Windows 10 Home Single Language
 - CPU
    - Name : Intel Core i7 11370H
