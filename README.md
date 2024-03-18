@@ -70,7 +70,7 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 #
 # Tugas 2
 1. Boot Process
-- ![Tugas2-Boot Process](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2342e836-878a-4cb3-a138-bc37c290549c)
+- ![Tugas2-Boot Process](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/df192f02-7fd9-456f-8ce0-e79b8f5ff7b4)
    
 2. Identifikasi
 - Windows 10 Home Single Language
@@ -126,7 +126,8 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
   - Bus Width : 128 bits
 
 - Mindmap Sejarah dan Fungsi OS
-  - ![MindMap SysOps](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/890387a2-74fc-4143-8f6e-f22ea0f7e412)
+  - ![MindMap SysOps](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/7e4d4a2b-6919-45f0-a91b-c2948e5ead89)
+
 #
 # Tugas 3
 1. Presentasi Langkah Demi Langkah Tentang Siklus CPU (Fetch, Decode, Execute)
@@ -177,37 +178,51 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
     
 2. Debian
    - apt install gcc -y
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/20e54fd3-8067-4c66-bd1c-766223b8b4be)
+   - ![install gcc](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/8b68804b-51b7-4cac-8537-2a36b1a1df35)
 
    - apt install git -y
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/00b66991-3a51-42a4-8b0d-dd6420ca1bbd)
+   - ![install git](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/983243c6-7048-4159-b2c3-694c92d72983)
 
    - apt install make -y
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/0e35e235-691f-4e8e-8e61-34a9a4f7ada9)
+   - ![install make](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/c7856969-fd0e-43cd-82eb-b0d100a0f78d)
 
    - git clone https://github.com/ferryastika/flops-iops
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ed034573-8bf1-4eb7-bf79-148aaca53b46)
+   - ![clone](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/51d5ed97-f9b2-4fbc-8a82-ba8b2d5b4abe)
 
    - $ make
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2d47f8af-053f-47b2-9ca0-61abe2fa8ce6)
+   - ![$make](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/d3ba695c-a796-4862-addd-20d2fffb71aa)
 
    - $ make clean
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/d5c58269-1c21-4bf6-a254-d386e57b73da)
+   - ![$make clean](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/c4c6250d-94cf-4f7c-9dbf-bd32f4072262)
 
    - $ sudo make install
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/726eb7c5-f833-4baa-924c-9e3cc24bf1b2)
+   - ![$sudo make install](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/29d726fb-47d9-4240-babf-f817f429be59)
 
    - $ sudo make uninstall
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/4e630a86-aace-444e-8a22-b4f4e5db1028)
+   - ![$sudo make uninstall](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/54fedef0-9310-42ef-bc17-608437821e3b)
 
    - $ iops32 $(nrpoc)
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/52e1ccf7-c5a8-458a-a392-4b4d546941ec)
+   - ![$iops32 $(nproc)](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/3e8d1eeb-0004-48da-b248-5542cd4be1ca)
 
    - $ iops64 $(nrpoc)
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9d7426a5-a432-4ce6-a9e8-abbc2ac6bd94)
+   - ![$iops64 $(nproc)](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ee266476-9e4e-47bd-b914-c9286f6c74a0)
 
    - $ flops32 $(nrpoc)
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/add7a663-6479-4269-8db8-4fdc0774e902)
+   - ![$flops32 $(nproc)](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/68a4d655-7d24-4b95-ba81-5aacba72dc2e)
 
    - $ flops64 $(nrpoc)
-     ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/1e94d584-d5ce-489b-a223-b3c89527bff5)
+   - ![$flops64 $(nproc)](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/03f1ed8d-8769-4a4c-b75d-f34b50ea93d6)
+
+   - Percobaan (./iops64 1) 5 kali
+   - ![iops64 5 kali](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/3f75c246-9e11-42d5-b040-dda5a173d3a4)
+
+   - Percobaan (./flops64 1) 5 kali
+   - ![flops64 5 kali](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/fdabe1a6-81fb-431c-a882-0a8b28e463cb)
+
+   - Perbandingan flops-iops dengan teman
+   - ![Perbandingan](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ff52060a-f58c-4553-8245-3c2d2b8a411a)
+
+   - Analisa hasil percobaan dan Kesimpulan
+      - flops mengukur jumlah operasi titik mengambang (floating-point operations) yang dapat dilakukan oleh sebuah prosesor atau sistem dalam satu detik.
+      - iops mengukur jumlah operasi masukan/keluaran (input/output operations) yang dapat dilakukan oleh sistem penyimpanan data dalam satu detik.
+      - 64, pengukuran berlaku untuk ukuran kata 64bit
