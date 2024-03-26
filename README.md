@@ -1,11 +1,11 @@
+# Kumpulan Tugas
 # Tugas 1
-
 1. Apa hubungan antara perangkat lunak aplikasi dan sistem operasi?
    - Hubungan antara perangkat lunak aplikasi dan sistem operasi adalah saling bergantung dan saling melengkapi. Sistem operasi bertanggung jawab untuk mengatur dan mengawasi penggunaan perangkat keras oleh berbagai program aplikasi serta pengguna. Sedangkan Perangkat lunak aplikasi adalah program yang bekerja untuk mewadahi perintah atau tindakan khusus yang diberikan pengguna, seperti mengetik, menggambar, atau bermain game.
-   - 
+
 2. Apa yang dimaksud dengan sistem operasi? Apakah itu perangkat keras atau perangkat lunak?
    - Sistem operasi adalah program yang bertindak sebagai antarmuka/interface antara pengguna komputer dan perangkat keras komputer. Sistem Operasi adalah perangkat lunak, karena sistem operasi merupakan lapisan perangkat lunak yang menangani aspek teknis pengoperasian komputer.
-   - 
+
 3. Sebutkan fungsi utama suatu sistem operasi!
    - Fungsi utama sistem operasi adalah sebagai berikut :
    - Manajemen Proses.
@@ -131,13 +131,74 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 #
 # Tugas 3
 1. Presentasi Langkah Demi Langkah Tentang Siklus CPU (Fetch, Decode, Execute)
-- Pengertian CPU
-   - CPU (Central Processing Unit) atau prosesor adalah komponen penting dalam komputer yang bertanggung jawab untuk mengeksekusi perintah dan mengatur akses ke perangkat keras seperti memori, disk drive, dan periferal lainnya. CPU merupakan otak dari komputer, yang memiliki tugas utama untuk menghitung, memproses, dan mengeksekusi data.
+- Ini adalah sebuah siklus CPU dan RAM pada PC kita, dan yang perlu dilakukan adalah menghitung. Prosesor/CPU memiliki 3 langkah yaitu Fetch/Mengambil, Decode/Dekode, Execute/Jalankan, dan ketiga proses tersebut hanya akan saling berulang dalam satu lingkaran dan itulah yang sebenarnya terjadi didalam sebuah CPU
+  - ![1](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/3ad68089-7b15-4014-9525-85fe29ebdfd9)
+  - ![3](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/417eb795-ed35-43ed-a0f8-1a8067eac917)
      
-- Siklus CPU merupakan proses utama yang dilakukan oleh CPU untuk mengeksekusi sebuah program. Proses ini dikelilingi oleh beberapa komponen yang bertugas mengatur dan mengirimkan instruksi ke CPU. Berikut adalah langkah demi langkah siklus CPU:
-   - Fetch: CPU mengambil instruksi dari memori. Instruksi ini disimpan dalam register yang disebut register instruction pointer (IP).
-   - Decode: CPU mengubah instruksi yang diambil menjadi format yang dapat dipahami oleh unit eksekusi.
-   - Execute: CPU mengirimkan instruksi ke unit eksekusi yang sesuai. Unit eksekusi melakukan tugas yang ditetapkan oleh instruksi.
+- Setelah itu kita akan memuat sebuah program kedalam RAM (Random Access Memory). RAM juga berguna untuk menyimpan jawaban dan output/keluaran kita
+  - ![2](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/0210bb7b-2475-494a-82ea-61308156f876)
+
+- Sebuah instruksi memiliki 2 bagian, bagian pertama berisi instruksi itu sendiri dan bagian kedua berisi alamat Memory nya. Pada setiap detak jam, CPU akan salah satu dari ketiga langkah yaitu Fetch (mengambil instruksi dari alamat memory), decode (menerjemahkan/memecahkan instruksi tersebut), Execute (menjalankan instruksi tersebut) dan ketiga langkah tadi berulang-ulang dalam satu lingkaran. Jadi itu semua akan dihitung dan akan memulai dengan sebuah angka menambahkan satu kedalam nya, lagi dan lagi.
+  - ![4](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a774bb84-ebfc-4c07-8cac-06aa98413d34)
+
+- (klik) Fetch/Ambil. Satu detak jam penghitungan program diatur dari 0, dan CPU mengambil instruksi dari alamat 0 yang ada di RAM lalu memasukkan nya kedalam daftar instruksi.
+  - ![5](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a98a24fd-74c5-4004-bf20-f0e5161c9a2b)
+
+- (klik) Decode. CPU menerjemahkan instruksi yang diambil tadi, dalam program ini instruksinya adalah Load/Memuat dan alamat nya adalah 6, yang berarti kita akan memuat nilai/isi dari alamat 6 yang ada di RAM ke dalam akumulator.
+   - ![6](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/7433835b-aac2-4c9f-a429-3fedaa410f4e)
+
+- (klik) Execute/Jalankan. CPU menjalankan instruksi yang sudah diterjemahkan di Decode dan dibutuhkan nilai dari alamat 6 lalu memuatnya ke akumulator, nilai tersebut bernilai 1.
+   - ![7](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/70c962e8-2d78-4d37-8203-9015235f1ad0)
+
+- (klik) Fetch/Ambil. Alamat dari penghitungan program bertambah menjadi 1 dan CPU mengambil instruksi dari alamat 1 yang ada di RAM.
+   - ![8](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ace25413-2fd7-49eb-95e4-0e864fd72ea0)
+
+- (klik) Decode. CPU menerjemahkan instruksi dan kali ini instruksinya adalah Add/Menambah dan alamat nya adalah 7, yang berarti kita akan menambah nilai dari alamat 7 yang ada di RAM ke dalam apa yang sudah ada di akumulator.
+   - ![9](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/1bb65767-1d99-4248-a1d7-94bfe7d3bc5d)
+
+- (klik) Execute/Jalankan. CPU menjalankan instruksi dan kita tambahkan nilai nya dari alamat 7 ke dalam akumulator. Nilai didalam akumulator berubah menjadi 2.
+   - ![10](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/bdc87791-f3e7-4d17-9103-38d4f9b41c23)
+   - ![11](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/88fb1b6f-4b71-42bf-b714-7ef10e604eab)
+
+- (klik) Fetch/Ambil. Mengambil dari alamat berikutnya yaitu nomor 2.
+   - ![12](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/8b571dd7-5652-4325-b5ba-45c5cffe0e31)
+
+- (klik) Decode. Menerjemahkan instruksi yang ada pada alamat nomor 2. Instruksinya adalah Store/Menyimpan ke dalam alamat 6.
+   - ![13](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/43140bc7-1ba2-4051-8776-7abe9b0fd69c)
+
+- (klik) Execute. Menjalankan instruksi alamat nomor 2, instruksi Store/Menyimpan yaitu kita menyimpan nilai 2 yang ada di akumulator tadi ke dalam alamat 6.
+   - ![14](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/0118fc0e-6b81-4f15-9586-0f8f7ec7f4a8)
+
+- (klik) Fetch/Ambil. Mengambil alamat berikutnya yaitu nomor 3.
+   - ![15](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/3a579cff-3a9a-4593-a5ff-d490de399e77)
+
+- (klik) Decode. Menerjemahkan instruksinya yaitu Jump 1 atau Lompat kembali ke alamat 1.
+   - ![16](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/6200a0ff-b861-4827-9db3-0ce81938a27c)
+
+- (klik) Execute/Jalankan. Penghitungan program sekarang kembali ke alamat 1. Kemampuan untuk melompat, mengulang, dan membuat instruksi secara berulang adalah salah satu dasar dari ilmu komputer.
+   - ![17](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/cd5d1ca3-f866-40f9-a81d-284c5dc8d212)
+
+- (klik) Fetch/Ambil. Mengambil lagi dari alamat 1.
+   - ![18](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/786eb4d7-3de4-4316-bfd3-6dc1954d856c)
+
+- (klik) Decode. Menerjemahkan instruksi lagi dan instruksi tersebut adalah Add 7 atau Menambah nilai dari alamat 7 kedalam akumulator.
+   - ![19](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/12f45c94-c2f4-4746-a7eb-0e628881abd7)
+
+- (klik) Execute. Menjalankan instruksi, menambahkan nilai pada alamat 7 yaitu 1 ke dalam akumulator yang tadinya berisi 2 dan menjadi 3 setelah ditambahkan.
+   - ![20](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/199bb0af-bb8d-419f-a9e1-d5649e183450)
+   - ![21](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/19de3d29-d5f1-418f-8f32-04452c585fe1)
+
+- (klik) Fetch/Ambil. Berlanjut mengambil ke alamat 2.
+   - ![22](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/f0184ef3-e081-4158-9113-53bde7149b00)
+
+- (klik) Decode. Menerjemahkan instruksinya yaitu Menyimpan ke alamat 6.
+   - ![23](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9a7eaa0b-50b3-40c7-bc2b-7cfc971bc60e)
+
+- (klik) Execute/Jalankan. Menjalankan instruksi dan menyimpan nilai yang ada di dalam akumulator ke dalam alamat 6.
+   - ![24](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/e6c68e11-bd3e-496e-9fa3-d18569414bd5)
+   - ![25](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a8996b2b-32f2-4cb0-a21e-407286a5eb44)
+
+- Semua siklus tadi berjalan pada satu lingkaran berulang dan kita menghitung satu persatu setiap siklus nya. Program tadi dan dengan instruksi yang sederhana ini, tidak memiliki perintah untuk menghentikannya, jadi program tadi hanya akan terus bertambah nilainya sebanyak satu hingga jumlahnya sangat besar dan tidak bisa lagi ditampung oleh Alamat Memory.
 
 - Peran Bahasa Pemrograman dan Compiler. Bahasa pemrograman dan compiler memiliki peran penting dalam mengeksekusi sebuah program. Bahasa pemrograman menyediakan konteks dan logika untuk membuat program, sedangkan compiler mengubah kode sumber menjadi kode yang dapat dijalankan oleh CPU.
    -  Bahasa pemrograman memiliki beberapa tugas yang dapat dilakukan:
@@ -177,6 +238,126 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
       - Mengatur penggunaan pengaturan keamanan.
     
 2. Debian
+- Install Debian :
+- Langkah pertama adalah buka VirtualBox dan mengklik tombol New untuk membuat VirtualMachine baru.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/5a61afa7-4a73-4ea7-924d-50bec986332b)
+
+- Setelah itu berikan nama pada VirtualMachine mu, pastikan kamu menaruh nya folder VirtualMachine mu di folder lain yang mudah dicari, pastikan juga untuk tipe nya yaitu Linux dan versinya adalah Debian (64-bit).
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/240a0964-9de7-4c8b-90d8-b8c68ac1ea49)
+
+- Setelah itu setting ukuran Memory dan Jumlah thread pada CPU. Disini saya gunakan settingan default jadi di Next saja.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a983ca35-f888-435f-93f5-7050e7202b0d)
+
+- Lanjut mengatur jumlah Penyimpanan VirtualMachine mu, disini saya juga setting secara default yaitu 20gb jadi di Next saja.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ab5454f0-cd9b-4a6a-84fc-096d9dc19f83)
+
+- Berikutnya pastikan seluruh informasi VirtualMachine mu benar seperti yang sudah di setting tadi, jika sudah pencet finish.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/5473d06a-befc-40cd-af9e-e56b556dab9d)
+
+- Jika sudah langsung klik Start saja untuk VirtualMachine nya.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9712f2aa-f364-4aed-913a-23faa939d6ac)
+
+- Jika muncul menu seperti dibawah, klik tanda panah bawah/dropdown pada menu DVD dan klik Other. Setelah di klik Other maka akan diarahkan untuk mencari file Installer Debian12 Desktop nya, jika sudah ketemu bisa di klik 2 kali dan akan dimasukkan ke dalam menu DVD tadi sebagai bootable.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/739220af-51fb-4e10-8269-341013f90ac6)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/8166e2a2-355d-48e3-ae26-6a1dcc5ef88d)
+     
+- Setelah itu klik Mount and Retry Boot dan VirtualMachine mu akan me reboot sistem Bootable nya.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/1c76c7bd-f2da-439c-b53b-eed4b487155f)
+     
+- Jika sudah tampil seperti dibawah, klik menu Install dan akan diarahkan pada proses Installasi Debian Desktop nya.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a95ffcb0-a191-4b8f-a225-0e3f1928ead8)
+
+- Disini kita setting bahasa, untuk bahasa saya setting default pada umum nya yaitu English, karena jika diubah ke Bahasa Indonesia nanti istilah/bahasanya akan berubah lagi dan membuat saya bingung. Jika sudah klik tombol enter pada keyboard karena disaat Installasi kita tidak bisa menggunakan Mouse.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2111ad40-2755-42ca-8c57-0fcafb9b6d91)
+
+- Setelah itu setting Lokasi, karena di menu ini tidak ada Asia jadi kita ke paling bawah yaitu Other dan pilih Asia. Selanjutnya pilih Indonesia lalu Enter.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/6c388043-202a-4da5-a15c-9b0f75574464)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2735df30-ba00-4d9b-b33d-cc3db7c330a2)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/aec5bc0c-f07b-404b-8328-b91acc2382f5)
+
+- Untuk menu dibawah saya setting default saja yaitu US/United States.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/c51c8363-4298-4dd1-819e-ed6ddbd30903)
+
+- Setelah itu kita setting konfigurasi keyboard kita, karna keyboard saya menggunakan Mapping milik American English jadi saya pilih American English.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/5a6b83af-29d8-4b51-b0c5-038cb122f53d)
+
+- Akan terlihat loading seperti dibawah, tunggu saja hingga proses loading selesai.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/27e77c8a-b450-4bbf-b2d5-a670df40ea42)
+
+- Selanjutnya kita setting Nama Host dari Sistem Debian kita. Jika sudah klik Continue.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ee8a3c33-5335-4b8f-8c59-1adf906a6aa6)
+
+- Nah untuk Domain Name ini kita disuruh setting nama Domain kita jika nantinya kita akan membuat Web Server, jadi ini Opsional bisa diisi atau tidak, jika tidak ingin klik Continue saja.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/659152fe-8c0b-4d7e-b3a1-e7b865788ddc)
+
+- Langkah selanjutnya adalah setting password untuk Super User/Root, jika sudah klik Continue. Setelah itu masukkan password tadi untuk Verfikasi password lalu Continue.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ddec3857-f56f-4d38-b3f9-c78375a9202b)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/e2bca187-2ca1-499e-8816-31779532928e)
+
+- Setting nama untuk User baru.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a40630dc-9701-4066-8c51-581c765a4e8d)
+
+- Setelah itu setting password nya dan Verifikasi password nya.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ce231364-9b84-4fb0-8446-bb81240e939a)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/8493456d-881b-4683-b2aa-8e7d9add6bf8)
+
+- Konfigurasi Zona Waktu nya.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/8317bad2-14d9-495b-94cd-6a1538622fe1)
+
+- Untuk setting partisi disk nya saya pakai default yang paling atas.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2736cf65-c308-442d-ba57-537c61bddbaa)
+
+- Setelah itu klik Enter saja.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/069b845f-3d06-488c-88f5-084a361cbbe3)
+
+- Klik Enter lagi biarkan default.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ec2537a6-bd22-45b9-a1f6-9cc1e435d64e)
+
+- Klik Finish dan Yes.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/b47a107c-fb2b-4c41-ac46-b7d99d43fe54)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/28638bca-f943-43b8-96dd-859e143adf6a)
+
+- Setelah itu tunggu saja proses loading instalasi Disk nya.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/f28d3858-2a1f-4fc1-aca0-3947f31a89e3)
+
+- Klik yes untuk Installation Media, Setelah itu klik no.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/c2558178-f677-4857-aa6b-fd621c5696d7)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/29b7676e-f2c7-4faf-acd0-030f3b962070)
+
+- Klik yes lagi untuk Network Mirror.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/bcba736a-6a4c-4e7b-8498-1b4720a19d39)
+
+- Jika tampil menu seperti dibawah klik Go Back dan Klik yes lagi.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/7f95d117-5fa1-40d4-9217-bb5d3a268c9a)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/174c06d6-a63a-4939-aba2-e89a7aef4ac5)
+
+- Klik yes untuk dpkg-reconfigure.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/d30be814-3b14-48cd-beab-9848acc2d834)
+
+- Pastikan untuk pilihan yang di centang * seperti dibawah, setelah itu Continue.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/413cfada-e215-4c0a-bdab-40902fe123ec)
+
+- Tunggu proses instalasi hingga selesai.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a79255ca-78ff-4460-87f3-e30bae8b11a7)
+
+- Klik Yes untuk instalasi GRUB Boot Loader, Setelah itu pilih menu yang bawah.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/4c9973b9-731d-4842-a040-22fdc21b9fce)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/aed17924-b2fe-4db9-bf07-a51368ce0d74)
+
+- Tunggu lagi proses instalasi hingga selesai.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9227244e-c2f8-4c1d-9033-552df81ae568)
+
+- Setelah itu klik Continue untuk menyelesaikan proses instalasi.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/c5b04e00-5143-465b-b2b7-ab86479a6ac2)
+
+- Jika sudah berhasil instalasi maka tampilan akan seperti ini, tinggal klik user dan masukkan password saja.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/2d038197-4eaa-46b5-9eb6-eff826d93022)
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/b91a3685-55d7-4f57-bf41-2680dc4e561a)
+
+- Instalasi Selesai dan Debian siap dijalankan.
+   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/675d7820-da75-4899-91fd-7a5617230fa9)
+
+- FLOPS-IOPS
    - apt install gcc -y
    - ![install gcc](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/8b68804b-51b7-4cac-8537-2a36b1a1df35)
 
@@ -223,6 +404,6 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
    - ![Perbandingan](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/ff52060a-f58c-4553-8245-3c2d2b8a411a)
 
    - Analisa hasil percobaan dan Kesimpulan
-      - flops mengukur jumlah operasi titik mengambang (floating-point operations) yang dapat dilakukan oleh sebuah prosesor atau sistem dalam satu detik.
-      - iops mengukur jumlah operasi masukan/keluaran (input/output operations) yang dapat dilakukan oleh sistem penyimpanan data dalam satu detik.
+      - FLOPS adalah singkatan dari istilah dalam bahasa Inggris Floating point Operations Per Second yang merujuk pada satuan untuk jumlah perhitungan yang dapat dilakukan oleh sebuah perangkat komputer terhadap bilangan pecahan (floating point) tiap satu satuan waktu.
+      - IOPS mengukur jumlah operasi masukan/keluaran (input/output operations) yang dapat dilakukan oleh sistem penyimpanan data dalam satu detik.
       - 64, pengukuran berlaku untuk ukuran kata 64bit
