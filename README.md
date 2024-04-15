@@ -407,3 +407,42 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
       - FLOPS adalah singkatan dari istilah dalam bahasa Inggris Floating point Operations Per Second yang merujuk pada satuan untuk jumlah perhitungan yang dapat dilakukan oleh sebuah perangkat komputer terhadap bilangan pecahan (floating point) tiap satu satuan waktu.
       - IOPS mengukur jumlah operasi masukan/keluaran (input/output operations) yang dapat dilakukan oleh sistem penyimpanan data dalam satu detik.
       - 64, pengukuran berlaku untuk ukuran kata 64bit
+
+   - Paging adalah teknik manajemen memori di mana komputer menyimpan dan mengambil data dari penyimpanan sekunder untuk digunakan dalam memori utama. Paging lebih fleksibel karena di dalamnya terjadi pergerakan halaman suatu proses.
+   - Swapping adalah teknik manajemen memori dan digunakan untuk menghapus sementara program yang tidak aktif dari memori utama sistem komputer. Setiap proses harus berada dalam memori untuk eksekusinya, namun dapat ditukar sementara keluar dari memori ke backing store dan kemudian dibawa kembali ke dalam memori untuk menyelesaikan eksekusinya. Swapping dilakukan agar proses lain mendapatkan memori untuk eksekusinya.
+
+#
+# Tugas 4
+1. Tugas Pendahuluan
+- Apa yang dimaksud redirection?
+   - Proses mengarahkan input/output dari suatu perintah atau program ke tempat atau aliran yang berbeda.
+- Apa yang dimaksud pipeline?
+   - Sebuah konsep yang memungkinkan pengguna untuk menghubungkan keluaran (output) dari satu perintah atau program dengan masukan (input) dari perintah atau program berikutnya.
+- Apa yang dimaksud perintah di bawah ini : echo, cat, more, sort, grep, wc, cut, uniq
+   - echo, menampilkan teks atau nilai variabel ke layar.
+   - cat, menampilkan atau menggabungkan isi dari satu atau beberapa file.
+   - more, menampilkan isi dari suatu file satu layar pada satu waktu.
+   - sort, untuk mengurutkan baris-baris teks dalam suatu file atau output dari perintah lain.
+   - grep, untuk mencari pola teks dalam suatu file atau output dari perintah lain.
+   - wc, untuk menghitung jumlah baris, kata, dan byte dalam suatu file atau output dari perintah lain.
+   - cut, untuk memotong (mengambil sebagian) kolom dari setiap baris dalam suatu file atau output dari perintah lain berdasarkan delimiter tertentu.
+   - uniq, untuk menghilangkan baris duplikat dari suatu file atau output dari perintah lain.
+
+2. Percobaan
+- Percobaan 1 File Descriptor
+   1. Output ke layar (standar output), input dari system (kernel)
+      - $ ps
+   2. Output ke layar (standar output), input dari keyboard (standard input)
+      - $ cat
+       hallo, apa khabar
+       hallo, apa khabar
+       exit dengan ^d
+       exit dengan ^d
+       [Ctrl-d]
+   3. Input nama direktori, output tidak ada (membuat direktori baru), bila terjadi error maka tampilan error pada layar (standard error)
+      - $ mkdir mydir
+      - $ mkdir mydir **(Terdapat pesan error)**
+- Percobaan 2 Pembelokan (Redirection)
+- Percobaan 3 Pipa (Pipeline)
+- Percobaan 4 Filter
+3. Latihan
