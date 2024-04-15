@@ -436,11 +436,11 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 
    2. Output ke layar (standar output), input dari keyboard (standard input)
       - $ cat
-       hallo, apa khabar
-       hallo, apa khabar
-       exit dengan ^d
-       exit dengan ^d
-       [Ctrl-d]
+      - hallo, apa khabar
+      - hallo, apa khabar
+      - exit dengan ^d
+      - exit dengan ^d
+      - [Ctrl-d]
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/342987e8-50ee-442e-a898-543623b33151)
 
    3. Input nama direktori, output tidak ada (membuat direktori baru), bila terjadi error maka tampilan error pada layar (standard error)
@@ -451,7 +451,7 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 - Percobaan 2 Pembelokan (Redirection)
    1. Pembelokan standar output
       - $ cat 1> myfile.txt
-        Ini adalah teks yang saya simpan ke file myfile.txt
+      - Ini adalah teks yang saya simpan ke file myfile.txt
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/804e2491-719c-4fab-b91e-efea4b2fc935)
 
    2. Pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file
@@ -490,15 +490,15 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 
    7. Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard. Perhatikan bahwa tanda pembatas dapat digantikan dengan tanda apa saja, namun harus sama dan tanda penutup harus diberikan pada awal baris
       - $ cat <<++
-      Hallo, apa kabar?
-      Baik-baik saja?
-      Ok!
-      ++
-      - $ cat <<%%% 
-      Hallo, apa kabar?
-      Baik-baik saja?
-      Ok!
-      %%%
+      - Hallo, apa kabar?
+      - Baik-baik saja?
+      - Ok!
+      - ++
+      - $ cat <<%%%
+      - Hallo, apa kabar?
+      - Baik-baik saja?
+      - Ok!
+      - %%%
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/bf9b647a-4061-4823-bf41-bf0c80fea4fc)
 
    8. Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file 1, kemudian menampilkan input dari keyboard dan menampilkan file 2. Perhatikan bahwa notasi “-“ berarti menyelipkan input dari keyboard
@@ -559,20 +559,20 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/e37a8dab-ea3c-4ebb-989c-75f2fe77002b)
 
       - $ cat > kelas1.txt
-        Badu
-        Zulkifli
-        Yulizir
-        Yudi
-        Ade
-        [Ctrl-d]
+      - Badu
+      - Zulkifli
+      - Yulizir
+      - Yudi
+      - Ade
+      - [Ctrl-d]
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/045135bc-ac0d-4ad7-8d55-0494588d2220)
 
       - $ cat > kelas2.txt
-        Budi
-        Gama
-        Asep
-        Muchlis
-        [Ctrl-d]
+      - Budi
+      - Gama
+      - Asep
+      - Muchlis
+      - [Ctrl-d]
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/f38138ff-9a5c-4df8-b7c8-aaaa8a95d91c)
 
       - $ cat kelas1.txt kelas2.txt | sort
@@ -599,13 +599,13 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/b670f4d9-576a-4ba0-a08d-61f3ac077cf5)
 
    - Urutkan kalimat berikut :
-     Jakarta
-     Bandung
-     Surabaya
-     Padang
-     Palembang
-     Lampung
-   Dengan menggunakan notasi here document (<@@@ ...@@@) .
+   - Jakarta
+   - Bandung
+   - Surabaya
+   - Padang
+   - Palembang
+   - Lampung
+   - Dengan menggunakan notasi here document (<@@@ ...@@@) .
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9470eec5-52ca-432f-bf9c-d825bfbc3702)
 
    - Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru.
@@ -613,13 +613,13 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 
    - Gunakan perintah di bawah ini dan perhatikan hasilnya.
       - $ cat > hello.txt
-        dog cat
-        cat duck
-        dog chicken
-        chicken duck
-        chicken cat
-        dog duck
-        [Ctrl-d]
+      - dog cat
+      - cat duck
+      - dog chicken
+      - chicken duck
+      - chicken cat
+      - dog duck
+      - [Ctrl-d]
       - $ cat hello.txt | sort | uniq
       - $ cat hello.txt | grep “dog” | grep –v “cat”
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/16ceec8a-8ee9-46fe-aee0-b2747928ef5b)
