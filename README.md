@@ -623,3 +623,98 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
       - $ cat hello.txt | sort | uniq
       - $ cat hello.txt | grep “dog” | grep –v “cat”
       - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/16ceec8a-8ee9-46fe-aee0-b2747928ef5b)
+
+#
+# Tugas 5
+**Perbedaan CISC dan RISC**
+* CISC (Complex Instruction Set Computing), sebuah arsitektur komputer yang memiliki Komponen Hardware yang sederhana namun memiliki Instruksi Pemrograman yang kompleks.
+* RISC (Reduced Instruction Set Computing), sebuah arsitektur komputer yang memiliki komponen Hardware lebih rumit/kompleks namun memiliki Instruksi Pemrograman yang sederhana.
+
+**Hubungan Arsitektur CPU dengan Arsitektur OS**
+* Arsitektur CPU adalah fondasi dari sistem komputer, maka dari itu Arsitektur CPU menentukan instruksi yang dapat diproses oleh CPU, berapa banyak bit data yang dapat dimanipulasi CPU dalam satu operasi, cara CPU mengakses data dalam memori, jumlah dan fungsi register internal CPU.
+* Arsitektur OS dirancang agar kompatibel dengan arsitektur CPU agar dapat memuat dan menjalankan program dengan benar, mengakses dan mengelola memori secara efisien, berkomunikasi dengan perangkat keras yang terhubung ke CPU, menyediakan layanan dasar untuk aplikasi dan pengguna.
+
+**Fork**
+Sebelum menjalankan Fork, login dulu sebagai root dan update repository setelah itu install g++
+```
+$ su root
+$ apt update
+$ apt install g++
+```
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/d1210af4-371d-4665-b669-2b84b9d7ad5b)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/dadb931e-99b7-4331-90d7-74da74394ebf)
+
+Setelah itu clonning repo : https://github.com/ferryastika/operatingsystem.git
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/91755d3e-4b0d-4b2e-97e6-b7293aaf72bb)
+
+1. Fork 01
+* Masuk kedalam folder yang baru saja di clonning
+```
+$ cd operatingsystem
+```
+* Tampilkan isi folder nya
+```
+$ ls
+```
+* Ubah file fork01.cpp ke file exe agar bisa dijalankan
+```
+$ g++ fork01.cpp -o fork01.exe
+```
+* Jalankan file nya
+```
+$ ./fork01.exe
+```
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9bf87230-0e20-4ab2-9d2e-9c3cbf71fd09)
+
+2. Fork 02
+* Ubah format file nya
+```
+$ g++ fork02.cpp -o fork02.exe
+```
+* Jalankan file nya
+```
+$ ./fork02.exe
+```
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/4ec40d18-be4b-4b3c-89f5-dba01724a323)
+
+3. Fork 03
+* Ubah format file nya
+```
+$ g++ fork03.cpp -o fork03.exe
+```
+* Jalankan
+```
+$ ./fork03.exe
+```
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/314b5d16-d5a6-43fc-9c34-5cc617fcd8b4)
+
+4. Orphans
+* Tampilkan isi folder dan cari file orphan.c
+```
+$ ls
+```
+* Ubah format file orphan.c ke orphan.exe
+```
+$ g++ orphan.c -o orphan.exe
+```
+* Jalankan file nya
+```
+$ ./orphan.exe
+```
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/437bd956-0403-4541-9ae5-791053fcbc30)
+
+5. Zombie
+* Tampilkan isi folder dan cari file zombie.c
+```
+$ ls
+```
+* Ubah format file zombie.c ke zombie.exe
+```
+$ g++ zombie.c -o zombie.exe
+```
+* Jalankan file nya
+```
+./zombie.exe
+```
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/806cd0ba-e5ed-4da6-906f-7cc87204bcd4)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/dea1056b-4f67-4646-bedf-6df70b5973ad)
