@@ -714,7 +714,7 @@ $ g++ zombie.c -o zombie.exe
 ```
 * Jalankan file nya
 ```
-./zombie.exe
+$ ./zombie.exe
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/806cd0ba-e5ed-4da6-906f-7cc87204bcd4)
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/dea1056b-4f67-4646-bedf-6df70b5973ad)
