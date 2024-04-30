@@ -635,7 +635,7 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 * Arsitektur OS dirancang agar kompatibel dengan arsitektur CPU agar dapat memuat dan menjalankan program dengan benar, mengakses dan mengelola memori secara efisien, berkomunikasi dengan perangkat keras yang terhubung ke CPU, menyediakan layanan dasar untuk aplikasi dan pengguna.
 
 **Fork**
-Sebelum menjalankan Fork, login dulu sebagai root dan update repository setelah itu install g++
+* Sebelum menjalankan Fork, login dulu sebagai root dan update repository setelah itu install g++
 ```
 $ su root
 $ apt update
@@ -718,3 +718,6 @@ $ ./zombie.exe
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/806cd0ba-e5ed-4da6-906f-7cc87204bcd4)
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/dea1056b-4f67-4646-bedf-6df70b5973ad)
+
+**Producer-Consumen Problem in C**
+* Producer-Consumen Problem adalah suatu masalah yang menggambarkan situasi dimana ada produsen yang membuat barang dan konsumen ingin membelinya namun konsumen tidak tau apakah barang tersebut sudah di produksi atau belum. Hal ini terjadi karena kurangnya sinkronisasi. Untuk mengatasi masalah ini, konsep semaphore digunakan. Semaphore adalah variabel yang digunakan untuk mengontrol akses ke sumber daya bersama oleh banyak proses secara bersamaan. Dengan semaphore, produsen tidak akan membuat kue jika penyimpanan sudah penuh, dan konsumen tidak akan mengambil kue jika penyimpanan kosong.
