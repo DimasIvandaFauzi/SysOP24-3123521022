@@ -20,3 +20,12 @@
 - Perbedaan Performa :
    - BIOS telah menjadi standar selama bertahun-tahun tetapi tidak memiliki beberapa fitur lanjutan yang ditemukan di UEFI. Kinerjanya secara umum memadai untuk tugas-tugas dasar tetapi kurang dalam beberapa hal dibandingkan dengan UEFI.
    - UEFI mendukung fitur-fitur lebih canggih yang tidak ada dalam sistem BIOS tradisional. 
+
+- BIOS :
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/b2b78851-69af-4e13-9fb7-c960edfdce7e)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/3c9b8f72-96f8-4965-8621-26217bad384f)
+
+- UEFI :
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/6984f211-27b0-4faa-b890-0c30e9be3cd2)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/62b067d5-e563-452d-8f20-bd8a9efd4ae0)
+
