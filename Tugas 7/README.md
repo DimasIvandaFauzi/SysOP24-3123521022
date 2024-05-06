@@ -1,4 +1,4 @@
-# Tugas 4
+# Tugas 7
 1. Tugas Pendahuluan
 - Apa yang dimaksud redirection?
    - Proses mengarahkan input/output dari suatu perintah atau program ke tempat atau aliran yang berbeda.
