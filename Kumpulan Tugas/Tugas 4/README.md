@@ -68,15 +68,4 @@
    - ![25](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/a8996b2b-32f2-4cb0-a21e-407286a5eb44)
 
 - Semua siklus tadi berjalan pada satu lingkaran berulang dan kita menghitung satu persatu setiap siklus nya. Program tadi dan dengan instruksi yang sederhana ini, tidak memiliki perintah untuk menghentikannya, jadi program tadi hanya akan terus bertambah nilainya sebanyak satu hingga jumlahnya sangat besar dan tidak bisa lagi ditampung oleh Alamat Memory.
-
 #
-| Folder | Link |
-| ------ | ---- |
-| Tugas 1 | [here](./Kumpulan%20Tugas/Tugas%201) |
-| Tugas 2 | [here](./Kumpulan%20Tugas/Tugas%202) |
-| Tugas 3 | [here](./Kumpulan%20Tugas/Tugas%203) |
-| Tugas 5 | [here](./Kumpulan%20Tugas/Tugas%205) |
-| Tugas 6 | [here](./Kumpulan%20Tugas/Tugas%206) |
-| Tugas 7 | [here](./Kumpulan%20Tugas/Tugas%207) |
-| Tugas 8 | [here](./Kumpulan%20Tugas/Tugas%208) |
-| Tugas 9 | [here](./Kumpulan%20Tugas/Tugas%209) |
