@@ -4,7 +4,7 @@
 
 | Folder | Link |
 | ------ | ---- |
-| Tugas 1 | [here](./Kumpulan%20Tugas/Tugas%201
+| Tugas 1 | [here](./Kumpulan%20Tugas/Tugas%201) |
 
 # Tugas 1
 https://github.com/DimasIvandaFauzi/SysOP24-3123521022/tree/74245a47ca7ac14d4c4f9329c20eb92c41a4f72a/Tugas%201
