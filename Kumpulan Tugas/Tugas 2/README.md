@@ -67,3 +67,15 @@
   - Vendor : Hynix
   - Bus Width : 128 bits
   - ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/285ad3ae-cef1-455b-95e6-2506270ebf9c)
+
+#
+| Folder | Link |
+| ------ | ---- |
+| Tugas 1 | [here](./Kumpulan%20Tugas/Tugas%201) |
+| Tugas 3 | [here](./Kumpulan%20Tugas/Tugas%203) |
+| Tugas 4 | [here](./Kumpulan%20Tugas/Tugas%204) |
+| Tugas 5 | [here](./Kumpulan%20Tugas/Tugas%205) |
+| Tugas 6 | [here](./Kumpulan%20Tugas/Tugas%206) |
+| Tugas 7 | [here](./Kumpulan%20Tugas/Tugas%207) |
+| Tugas 8 | [here](./Kumpulan%20Tugas/Tugas%208) |
+| Tugas 9 | [here](./Kumpulan%20Tugas/Tugas%209) |
