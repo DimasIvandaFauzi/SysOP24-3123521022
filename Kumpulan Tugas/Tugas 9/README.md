@@ -105,3 +105,15 @@ $ ./zombie.exe
 
 **Producer-Consumen Problem in C**
 * Producer-Consumen Problem adalah suatu masalah yang menggambarkan situasi dimana ada produsen yang membuat barang dan konsumen ingin membelinya namun konsumen tidak tau apakah barang tersebut sudah di produksi atau belum. Hal ini terjadi karena kurangnya sinkronisasi. Untuk mengatasi masalah ini, konsep semaphore digunakan. Semaphore adalah variabel yang digunakan untuk mengontrol akses ke sumber daya bersama oleh banyak proses secara bersamaan. Dengan semaphore, produsen tidak akan membuat kue jika penyimpanan sudah penuh, dan konsumen tidak akan mengambil kue jika penyimpanan kosong.
+
+#
+| Folder | Link |
+| ------ | ---- |
+| Tugas 1 | [here](./Kumpulan%20Tugas/Tugas%201) |
+| Tugas 2 | [here](./Kumpulan%20Tugas/Tugas%202) |
+| Tugas 3 | [here](./Kumpulan%20Tugas/Tugas%203) |
+| Tugas 4 | [here](./Kumpulan%20Tugas/Tugas%204) |
+| Tugas 5 | [here](./Kumpulan%20Tugas/Tugas%205) |
+| Tugas 6 | [here](./Kumpulan%20Tugas/Tugas%206) |
+| Tugas 7 | [here](./Kumpulan%20Tugas/Tugas%207) |
+| Tugas 8 | [here](./Kumpulan%20Tugas/Tugas%208) |
