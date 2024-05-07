@@ -67,6 +67,7 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
     - Perangkat lunak sistem pada dasarnya adalah platform yang mengontrol dan mengelola perangkat keras (prosesor, perangkat, memori). Ini juga menyediakan antarmuka untuk menjalankan perangkat lunak aplikasi.
     - Perangkat Lunak Aplikasi adalah kumpulan program yang berjalan sesuai perintah pengguna untuk memenuhi tugas berikut. Ini berjalan pada platform yang dirancang oleh perangkat lunak sistem.
 
+#
 | Folder | Link |
 | ------ | ---- |
 | Tugas 2 | [here](./Kumpulan%20Tugas/Tugas%202) |
