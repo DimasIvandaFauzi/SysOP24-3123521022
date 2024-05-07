@@ -70,7 +70,7 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 #
 | Folder | Link |
 | ------ | ---- |
-| Tugas 2 | [here](./Tugas%202) |
+| Tugas 2 | [here](Tugas%202) |
 | Tugas 3 | [here](./Tugas%203) |
 | Tugas 4 | [here](./Kumpulan%20Tugas/Tugas%204) |
 | Tugas 5 | [here](./Kumpulan%20Tugas/Tugas%205) |
