@@ -66,15 +66,4 @@ Kecepatan proses Komputer generasi pertama lebih lambat daripada Komputer genera
 15. Apa perbedaan antara perangkat lunak sistem dan perangkat lunak aplikasi?
     - Perangkat lunak sistem pada dasarnya adalah platform yang mengontrol dan mengelola perangkat keras (prosesor, perangkat, memori). Ini juga menyediakan antarmuka untuk menjalankan perangkat lunak aplikasi.
     - Perangkat Lunak Aplikasi adalah kumpulan program yang berjalan sesuai perintah pengguna untuk memenuhi tugas berikut. Ini berjalan pada platform yang dirancang oleh perangkat lunak sistem.
-
 #
-| Folder | Link |
-| ------ | ---- |
-| Tugas 2 | [here](Tugas2) |
-| Tugas 3 | [here](./Tugas%203) |
-| Tugas 4 | [here](./Kumpulan%20Tugas/Tugas%204) |
-| Tugas 5 | [here](./Kumpulan%20Tugas/Tugas%205) |
-| Tugas 6 | [here](./Kumpulan%20Tugas/Tugas%206) |
-| Tugas 7 | [here](./Kumpulan%20Tugas/Tugas%207) |
-| Tugas 8 | [here](./Kumpulan%20Tugas/Tugas%208) |
-| Tugas 9 | [here](./Kumpulan%20Tugas/Tugas%209) |
