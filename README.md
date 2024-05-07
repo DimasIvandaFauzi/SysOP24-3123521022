@@ -1,6 +1,5 @@
 # Kumpulan Tugas
-**Dimas Ivanda Fauzi D3-Ti-LA-A**
-**3123521022**
+**Dimas Ivanda Fauzi_D3-Ti-LA-A_3123521022**
 
 | Folder | Link |
 | ------ | ---- |
