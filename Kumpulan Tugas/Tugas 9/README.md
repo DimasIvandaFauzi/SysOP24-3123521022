@@ -42,33 +42,33 @@ $ ls
 ```
 * Ubah file fork01.cpp ke file exe agar bisa dijalankan
 ```
-$ g++ fork01.cpp -o fork01.exe
+$ g++ fork01.cpp -o fork01
 ```
 * Jalankan file nya
 ```
-$ ./fork01.exe
+$ ./fork01
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9bf87230-0e20-4ab2-9d2e-9c3cbf71fd09)
 
 2. Fork 02
 * Ubah format file nya
 ```
-$ g++ fork02.cpp -o fork02.exe
+$ g++ fork02.cpp -o fork02
 ```
 * Jalankan file nya
 ```
-$ ./fork02.exe
+$ ./fork02
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/4ec40d18-be4b-4b3c-89f5-dba01724a323)
 
 3. Fork 03
 * Ubah format file nya
 ```
-$ g++ fork03.cpp -o fork03.exe
+$ g++ fork03.cpp -o fork03
 ```
 * Jalankan
 ```
-$ ./fork03.exe
+$ ./fork03
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/314b5d16-d5a6-43fc-9c34-5cc617fcd8b4)
 
@@ -79,11 +79,11 @@ $ ls
 ```
 * Ubah format file orphan.c ke orphan.exe
 ```
-$ g++ orphan.c -o orphan.exe
+$ g++ orphan.c -o orphan
 ```
 * Jalankan file nya
 ```
-$ ./orphan.exe
+$ ./orphan
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/437bd956-0403-4541-9ae5-791053fcbc30)
 
@@ -94,11 +94,11 @@ $ ls
 ```
 * Ubah format file zombie.c ke zombie.exe
 ```
-$ g++ zombie.c -o zombie.exe
+$ g++ zombie.c -o zombie
 ```
 * Jalankan file nya
 ```
-$ ./zombie.exe
+$ ./zombie
 ```
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/806cd0ba-e5ed-4da6-906f-7cc87204bcd4)
 ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/dea1056b-4f67-4646-bedf-6df70b5973ad)
