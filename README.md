@@ -15,3 +15,4 @@
 | Tugas 10 | [here](./Kumpulan%20Tugas/Tugas10) |
 | Tugas 11 | [here](./Kumpulan%20Tugas/Tugas11) |
 | Tugas 12 | [here](./Kumpulan%20Tugas/Tugas12) |
+| Tugas 13 | [here](./Kumpulan%20Tugas/Tugas13) |
