@@ -6,3 +6,7 @@
 
 * Jawaban :
   * [Dimas Ivanda Fauzi_3123521022_Tugas 13.pdf](https://github.com/user-attachments/files/15541322/Dimas.Ivanda.Fauzi_3123521022_Tugas.13.pdf)
+  * ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/86a353d7-6bd7-4f91-8b17-a6a4f41d244e)
+  * ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/38407903-25de-487d-b202-57dfc8b3fec4)
+  * ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/71a73157-5c97-4893-a45a-1b464869d94f)
+  * ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/97ea89a8-282b-4547-98cd-53e60674992f)
