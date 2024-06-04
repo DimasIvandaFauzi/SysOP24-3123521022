@@ -39,19 +39,15 @@ $ cd operatingsystem
 * Tampilkan isi folder nya
 ```
 $ ls
-```
-* Ubah file fork01.cpp ke file exe agar bisa dijalankan
-```
 $ g++ fork01.cpp -o fork01
 ```
 * Jalankan file nya
 ```
 $ ./fork01
 ```
-![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/9bf87230-0e20-4ab2-9d2e-9c3cbf71fd09)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/71680ac8-dd20-4b4a-b86a-00d219f055dc)
 
 2. Fork 02
-* Ubah format file nya
 ```
 $ g++ fork02.cpp -o fork02
 ```
@@ -59,10 +55,9 @@ $ g++ fork02.cpp -o fork02
 ```
 $ ./fork02
 ```
-![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/4ec40d18-be4b-4b3c-89f5-dba01724a323)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/fd34e7f4-7db5-48f4-afaf-7293e581cede)
 
 3. Fork 03
-* Ubah format file nya
 ```
 $ g++ fork03.cpp -o fork03
 ```
@@ -70,38 +65,32 @@ $ g++ fork03.cpp -o fork03
 ```
 $ ./fork03
 ```
-![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/314b5d16-d5a6-43fc-9c34-5cc617fcd8b4)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/b479b1b6-4a15-4412-8f50-ffaae3008c3a)
 
 4. Orphans
 * Tampilkan isi folder dan cari file orphan.c
 ```
 $ ls
-```
-* Ubah format file orphan.c ke orphan.exe
-```
 $ g++ orphan.c -o orphan
 ```
 * Jalankan file nya
 ```
 $ ./orphan
 ```
-![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/437bd956-0403-4541-9ae5-791053fcbc30)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/64c5b429-d02b-40b9-8781-d264aae3a585)
 
 5. Zombie
 * Tampilkan isi folder dan cari file zombie.c
 ```
 $ ls
-```
-* Ubah format file zombie.c ke zombie.exe
-```
 $ g++ zombie.c -o zombie
 ```
 * Jalankan file nya
 ```
 $ ./zombie
 ```
-![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/806cd0ba-e5ed-4da6-906f-7cc87204bcd4)
-![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/dea1056b-4f67-4646-bedf-6df70b5973ad)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/1bda81f4-fd69-47dd-85e9-2a191cd08afd)
+![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/375e1d26-134c-4df0-a668-1c1b360ef702)
 
 **Producer-Consumen Problem in C**
 * Producer-Consumen Problem adalah suatu masalah yang menggambarkan situasi dimana ada produsen yang membuat barang dan konsumen ingin membelinya namun konsumen tidak tau apakah barang tersebut sudah di produksi atau belum. Hal ini terjadi karena kurangnya sinkronisasi. Untuk mengatasi masalah ini, konsep semaphore digunakan. Semaphore adalah variabel yang digunakan untuk mengontrol akses ke sumber daya bersama oleh banyak proses secara bersamaan. Dengan semaphore, produsen tidak akan membuat kue jika penyimpanan sudah penuh, dan konsumen tidak akan mengambil kue jika penyimpanan kosong.
