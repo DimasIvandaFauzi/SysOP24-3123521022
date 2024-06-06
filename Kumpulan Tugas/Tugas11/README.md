@@ -14,11 +14,15 @@
 * Konkuren Paralel
   * ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/da58846b-a6e2-4b92-8700-d958f310048d)
   * Tugas dibagi menjadi sub tugas dan tiap sub tugas yang berbeda dapat dikerjakan bersamaan di Core CPU yang berbeda
+
+* Non-Preemptive vs Preemptive
+  * ![image](https://github.com/DimasIvandaFauzi/SysOP24-3123521022/assets/160553968/0fa82eab-e4e1-427a-9f0e-5702178cd547)
+  * Non-Preemptive adalah alur Eksekusi proses secara berurutan dan jika ada Proses lain dengan prioritas lebih tinggi sudah Ready, proses yang sudah jalan sebelumnya tidak dapat di Interupt.
+  * Preemptive adalah proses yang sedang berjalan dapat di interupsi jika ada proses dengan prioritas lebih tinggi dari proses sebelum nya, dan proses sebelumnya dapat berjalan jika proses yang meng-interupt tadi sudah selesai.
+
 #
 **Catatan**
 * Perbedaan Proses dan Thread:
-  * Tiap 1 PCB hanya 1 proses
-  * Tiap 1 PCB lebih dari 1 thread
   * Proses adalah program yang sedang di eksekusi oleh CPU
   * Thread adalah unit eksekusi terkecil dalam sebuah proses
 * Multithreading adalah kemampuan sebuah program untuk menjalankan beberapa thread secara bersamaan.
